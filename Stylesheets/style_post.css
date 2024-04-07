@@ -1,0 +1,258 @@
+
+
+body {
+    background-image: url(../Backgrounds/bg_posts.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+
+.post {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 5px white;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    margin-bottom: 40px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.post h1 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+.post p {
+    text-decoration: none;
+        width: 100%;
+        font-weight: 100;
+        word-break: break-word;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+        font-size: 1rem;
+        margin-bottom: 30px;
+    
+}
+.post .user {
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+.posts {
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+}
+
+.posts a {
+    text-decoration: none;
+}
+
+.comment_add {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    padding: 40px;
+    padding-bottom: 10px;
+    background: rgba(255, 181, 255, 0.95);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
+.comment_add h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #000;
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 0px;
+    font-size: 2.25rem;
+
+}
+
+.comment_add input {
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .0);
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.comment_add textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .0);
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.comment_add label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000;
+    font-family: 'omori_gameregular', sans-serif;
+    font-size: 2rem;
+}
+
+.comment_add .submit {
+    cursor: pointer;
+    position: relative;
+    width: 30%;
+    height: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'omori_gameregular', sans-serif;
+    font-size: 2rem;
+    transition:  all 0.10s ease-in-out; 
+}
+
+.comment_add .submit:hover {
+    background-color: #000;
+    color: white;
+}
+
+.comment_add p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000;
+    font-family: 'omori_gameregular', sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 70%;
+}
+
+.comments {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.comments h2 {
+    background: rgba(255, 181, 255, 0.95);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    margin: 0 0 30px;
+    padding: 10px;
+    color: #000;
+    border-radius: 10px;
+    border: solid 2px black;
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 0px;
+    font-size: 2.25rem;
+
+}
+
+.comment {
+    background-color: black;
+    color: white;
+    border: solid 5px white;        
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.comment p {
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.login p {
+    margin-top: 5px;
+    font-family: roboto;
+    color: white;   
+    text-align: center;
+}
+
+.login a {
+    font-family: roboto;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login a:hover {
+    text-decoration: underline;
+    color: pink;
+}
+
+.login_query {
+    display: flex;
+    justify-content: space-between;;
+}
+
+.login {
+    position: relative;
+    left: 82%;
+    margin-right: 5%;
+    border: solid 5px white;
+    background-color: black;
+    color: white;
+    width: 15%;
+    margin-bottom: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.retour {
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    background: rgba(255, 181, 255, 0.95);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    margin: 0 0 30px;
+    padding: 10px;
+    color: #000;
+    border-radius: 10px;
+    border: solid 2px black;
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 0px;
+    font-size: 1.25rem;
+    width: fit-content;
+
+}
+
+.retour a {
+    text-decoration: none;
+    color: black;
+}
+
+.retour:hover a {
+    text-decoration: underline;
+}

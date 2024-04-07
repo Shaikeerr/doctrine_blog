@@ -1,0 +1,177 @@
+
+@font-face {
+    font-family: 'omori_gameregular2';
+    src: url('../Fonts/omori_game-webfont.woff2') format('woff2'),
+         url('../Fonts/omori_game-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'omori_gameregular';
+    src: url('../Fonts/omori_game2-webfont.woff2') format('woff2'),
+         url('../Fonts/omori_game2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-image: url(../Backgrounds/bg.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.header {
+    width: 100%;
+    height: 55vh;
+}
+
+.header img {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.post {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: solid 5px white;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    margin-bottom: 40px;
+    padding: 20px;
+    padding-bottom: 0;
+    transition: all .25s ease-in-out;
+}
+
+.post h1 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+.post p {
+    text-decoration: none;
+        height: 50px;
+        width: 100%;
+        word-break: break-word;
+        font-size: 1.25rem;
+        margin-bottom: 30px;
+    
+}
+.post .user {
+    text-align: right;
+    margin-right: 10%;
+    margin: 0;
+}
+
+.post:hover {
+    border-color: rgb(255, 157, 173);
+}
+
+
+.posts {
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+}
+
+.posts h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.posts a {
+    text-decoration: none;
+}
+
+label {
+    color: white;
+}
+
+.login p {
+    margin-top: 5px;
+    font-family: roboto;
+    color: white;   
+    text-align: center;
+}
+
+.login a {
+    font-family: roboto;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login a:hover {
+    text-decoration: underline;
+    color: pink;
+}
+
+.login_query {
+    display: flex;
+    justify-content: space-between;;
+}
+
+.login {
+    position: relative;
+    left: 82%;
+    margin-right: 5%;
+    border: solid 5px white;
+    background-color: black;
+    color: white;
+    width: 15%;
+    margin-bottom: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.create_post {
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    border: solid 5px white;
+    background-color: black;
+    width:fit-content;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
